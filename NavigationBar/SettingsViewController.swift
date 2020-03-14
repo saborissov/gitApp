@@ -9,7 +9,8 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
