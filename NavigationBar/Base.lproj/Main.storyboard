@@ -66,15 +66,24 @@
                                     <action selector="goToNext:" destination="1a6-6z-lKZ" eventType="touchUpInside" id="qyU-WE-LaE"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter some one" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5do-2n-TZk" userLabel="dwdw">
+                                <rect key="frame" x="77" y="247" width="220" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="leG-R9-Rov"/>
                     </view>
                     <navigationItem key="navigationItem" title="Настройки" id="ZOE-v4-9lo"/>
+                    <connections>
+                        <outlet property="textField" destination="5do-2n-TZk" id="u3b-gX-RK9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fz9-Ss-kX2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1660" y="128"/>
+            <point key="canvasLocation" x="1660" y="127.28635682158921"/>
         </scene>
         <!--New View Controller-->
         <scene sceneID="e1J-gN-bQK">
