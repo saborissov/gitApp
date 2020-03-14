@@ -13,6 +13,8 @@
 		B94957A9241C9355007BC9F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94957A7241C9355007BC9F0 /* Main.storyboard */; };
 		B94957AB241C935A007BC9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94957AA241C935A007BC9F0 /* Assets.xcassets */; };
 		B94957AE241C935A007BC9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94957AC241C935A007BC9F0 /* LaunchScreen.storyboard */; };
+		B94957B6241C9A14007BC9F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94957B5241C9A14007BC9F0 /* SettingsViewController.swift */; };
+		B94957B8241C9B19007BC9F0 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94957B7241C9B19007BC9F0 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B94957AA241C935A007BC9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B94957AD241C935A007BC9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B94957AF241C935A007BC9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94957B5241C9A14007BC9F0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B94957B7241C9B19007BC9F0 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B94957AA241C935A007BC9F0 /* Assets.xcassets */,
 				B94957AC241C935A007BC9F0 /* LaunchScreen.storyboard */,
 				B94957AF241C935A007BC9F0 /* Info.plist */,
+				B94957B5241C9A14007BC9F0 /* SettingsViewController.swift */,
+				B94957B7241C9B19007BC9F0 /* NewViewController.swift */,
 			);
 			path = NavigationBar;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				B94957A6241C9355007BC9F0 /* ViewController.swift in Sources */,
 				B94957A2241C9355007BC9F0 /* AppDelegate.swift in Sources */,
+				B94957B8241C9B19007BC9F0 /* NewViewController.swift in Sources */,
 				B94957A4241C9355007BC9F0 /* SceneDelegate.swift in Sources */,
+				B94957B6241C9A14007BC9F0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
