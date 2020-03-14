@@ -17,7 +17,9 @@ class SettingsViewController: UIViewController {
     }
 
     @IBAction func goToNext(_ sender: UIButton) {
-        let newVC = storyboard?.instantiateViewController(withIdentifier: "NewViewController")
-        navigationController?.pushViewController(newVC!, animated: true)
+        let newVC = storyboard?.instantiateViewController(withIdentifier: "NewViewController") as! NewViewController
+        let text = textField.text
+        newVC.textFromVC = text
+        navigationController?.pushViewController(newVC, animated: true)
     }
 }

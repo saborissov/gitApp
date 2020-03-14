@@ -9,9 +9,11 @@
 import UIKit
 
 class NewViewController: UIViewController {
+    var textFromVC:String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = textFromVC
 
     }
     @IBAction func goToRott(_ sender: UIButton) {
